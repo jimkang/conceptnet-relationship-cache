@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+*.swp
+config.js
+data/conceptnet/conceptnet-assertions-5.6.0-subset.ndjson
+

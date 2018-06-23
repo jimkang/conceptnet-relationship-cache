@@ -26,3 +26,7 @@ build-conceptnet-file-offsets:
 data/conceptnet/conceptnet-assertions-5.6.0-subset.ndjson:
 	# Assertions file can be downloaded from here: https://github.com/commonsense/conceptnet5/wiki/Downloads
 	node tools/filter-conceptnet-csv.js ~/Downloads/conceptnet-assertions-5.6.0.csv > data/conceptnet/conceptnet-assertions-5.6.0-subset.ndjson
+
+get-data-file-line-counts:
+	cd data/conceptnet && find ./ -type f -name *.ndjson -exec wc -l {} +
+

@@ -1,6 +1,6 @@
 {
   "name": "conceptnet-relationship-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Some relationships cached from ConceptNet, for quick and easy use. Not necessarily up-to-date, however, and with abbreviated relationship objects.",
   "main": "index.js",
   "scripts": {

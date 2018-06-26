@@ -6,7 +6,7 @@ var curry = require('lodash.curry');
 var lineChomper = require('line-chomper');
 var fs = require('fs');
 var iscool = require('iscool')({
-  customBlacklist: ['massacre', 'massacres', 'fat', 'voilence', 'midgets', 'midget']
+  customBlacklist: ['massacre', 'massacres', 'fat', 'voilence', 'midgets', 'midget', 'Osama']
 });
 var probable = require('probable');
 var splitToWords = require('split-to-words');
